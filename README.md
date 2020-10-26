@@ -17,3 +17,5 @@ This project used this repository (https://github.com/phibenz/Matlab_Table_Tenni
 
 ## Videos
 [![Two Robots Playing Ping pong](https://i9.ytimg.com/vi/covMtJ-vK6g/mq2.jpg?sqp=CMzU2_wF&rs=AOn4CLBadDjFRkUPI_Cg2k_KaJMiU2QUmQ)](https://youtu.be/covMtJ-vK6g "KUKA IIWA7 playing ping pong (Kuka IIWA7 playing ping pong (MATLAB simulation))")
+
+[![Two Robots Playing Ping pong 2](https://i9.ytimg.com/vi/ley3xYENL5k/mq1.jpg?sqp=CNDb2_wF&rs=AOn4CLD3IcSrWDqb4jtbVSewfZFNCGOAcg)](https://youtu.be/ley3xYENL5k)
