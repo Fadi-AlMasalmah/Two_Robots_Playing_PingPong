@@ -9,7 +9,7 @@ the environment, and the dynamics of the robotic arm. For that, we did the follo
 3 - Built mathematical models for the physics of the game (spin, aerodynamics, collision)
 4 - Designed an algorithm for hitting position and trajectory optimization.
 
-(A presentation of the project is available in Russian language)
+(A presentation of the project is available in Russian language in "Presentaion" folder)
 
 # Comment
 This project used this repository (https://github.com/phibenz/Matlab_Table_Tennis) as a beginning point 
