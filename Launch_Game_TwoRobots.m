@@ -11,7 +11,7 @@ global NeedDbg
 NeedDbg = 0;
 % fixHitplaneX = 0.4;
 global MyIk
-MyIk = 1;
+MyIk = 1;  % if 1: use the inverse kinematics that I programed, else: use the MATLAB numerical IK
 global checkLimitsAndCollision
 checkLimitsAndCollision = 1;
 
@@ -159,12 +159,12 @@ for GameId = 1:NumOfGames
         InitialBall=false;
         pOpponentError = [100,100,100];
         [Reward1,Reward2,Ball.State,terminate] = FindBallState(Ball.State,Table,Robot1.DistToTable,P,V,lastV);
-        %% Discuss the ball state for
+        %% Discuss the ball state for points counting
         if strcmp(Ball.State,'H2')
             LeftHit =  true;
         end
         
-        if strcmp(Ball.State,'H2+')
+        if strcmp(Ball.State,'H2+') 
             if(MaxQdV > 12)
                % NUMUNSTABLE = NUMUNSTABLE+1;
             else
@@ -267,7 +267,7 @@ for GameId = 1:NumOfGames
         lastV = V;
     end %WHILE
     
-    %%
+    %% Statistics of the game
     if(ValidShot)
         if(LeftHit)
             NumLeftHit =  NumLeftHit + 1;
