@@ -25,4 +25,6 @@ This project used this repository (https://github.com/phibenz/Matlab_Table_Tenni
 `Launch_Game_TwoRobots.m` starts the simulation
 
 ## Videos
-[![Two Robots Playing Ping pong](https://i9.ytimg.com/vi/covMtJ-vK6g/mq2.jpg?sqp=CMzU2_wF&rs=AOn4CLBadDjFRkUPI_Cg2k_KaJMiU2QUmQ)](https://youtu.be/covMtJ-vK6g "KUKA IIWA7 playing ping pong (Kuka IIWA7 playing ping pong (MATLAB simulation))")
+[![Two Robots Playing Ping pong](https://github.com/Fadi-AlMasalmah/Two_Robots_Playing_PingPong/blob/master/Video/1.jpg)](https://youtu.be/covMtJ-vK6g "KUKA IIWA7 playing ping pong (Kuka IIWA7 playing ping pong (MATLAB simulation))")
+
+[![Two Robots Playing Ping pong 2](https://github.com/Fadi-AlMasalmah/Two_Robots_Playing_PingPong/blob/master/Video/2.jpg)](https://youtu.be/ley3xYENL5k)
